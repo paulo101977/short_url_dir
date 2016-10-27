@@ -15,6 +15,7 @@ app.get('/' , function(request, resource){
 
 app.get('/:value', function(request, resource){
 
+    //short url value
     var value = request.params.value;
     //resource.send(value)
 
