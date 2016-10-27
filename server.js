@@ -6,6 +6,7 @@ var client = mongo.MongoClient;
 var Server = mongo.Server;
 var Db = mongo.Db;
 
+var port = process.env.PORT || 8080;
 
 app.use(express.static('public'));
 
@@ -90,6 +91,6 @@ app.get('*:value', function(request, resource){
     res.send(JSON.stringify(req.headers))
 });*/
 
-app.listen(3000)
+app.listen(port)
 
 
