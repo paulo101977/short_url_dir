@@ -1,0 +1,21 @@
+{
+  "name": "short",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Paulo Sérgio"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/paulo101977/short_url_dir",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
