@@ -8,11 +8,13 @@
   },
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "./node_modules/bower/bin/bower install"
   },
   "author": "Paulo Sérgio",
   "license": "MIT",
   "dependencies": {
+    "bower" : "^1.7.9",
     "express": "^4.14.0",
     "jsdom": "^9.8.3",
     "mongodb": "^2.2.11",
